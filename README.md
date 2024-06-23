@@ -52,3 +52,40 @@ Submit your document and GitHub repository link through the designated platform 
 - Adherence to submission guidelines and deadlines.
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+
+
+THE SET UP PROCESS
+
+Definition based on linux ubuntu
+
+ HOW TO INSTALL VS CODE ON UBUNTU
+ I installed Vs code by running the following commands
+ sudo apt update
+ sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install code
+code
+
+HOW TO INSTALL PYTHON ON UBUNTU
+Ubuntu comes with an installed python3 so I did not have to install another python version
+
+HOW TO INSTALL MYSQL ON UBUNTU
+I  installed mysql by running the following commands
+
+sudo apt update
+sudo apt install mysql-server
+sudo mysql_secure_installation
+sudo systemctl start mysql
+sudo systemctl enable mysql
+sudo systemctl  status mysql
+sudo mysql -u root -p
+
+SAMPLE GIT REPO CREATED
+https://github.com/BrunexItech/MySecRepo.git
+
+
+CHALLENGES ENCOUNTERED
+The challenges I encountered is that the lessons are mainly taught based on the windows version and yet my laptop has ubuntu installed in it.
+This forces me to look for Youtube tutorials so that I can be able to catch up with the rest.
